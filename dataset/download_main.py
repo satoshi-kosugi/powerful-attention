@@ -50,13 +50,13 @@ def download_images_from_page(url, gray_pattern, ref_pattern, cnt_folder, sty_fo
     return cnt_num
 
 urls_and_patterns = [
-    ("https://www.dongdongchen.bid/supp/deep_exam_colorization/index.html",
+    ("https://raw.githubusercontent.com/cddlyf/cddlyf.github.io/a5d684aa7bc2b04eb7d8c6413740ada25c0a9838/supp/deep_exam_colorization/index.html",
      "images/example_based/Input/gray_", "images/example_based/Reference/ref_"),
-    ("https://www.dongdongchen.bid/supp/deep_exam_colorization/learning_based.html",
+    ("https://raw.githubusercontent.com/cddlyf/cddlyf.github.io/a5d684aa7bc2b04eb7d8c6413740ada25c0a9838/supp/deep_exam_colorization/learning_based.html",
      "images/learning_based/in/", "images/learning_based/ref/"),
-    ("https://www.dongdongchen.bid/supp/deep_exam_colorization/legacy_photos.html",
+    ("https://raw.githubusercontent.com/cddlyf/cddlyf.github.io/a5d684aa7bc2b04eb7d8c6413740ada25c0a9838/supp/deep_exam_colorization/legacy_photos.html",
      "images/legacy/gray/in_", "images/legacy/ref/ref_"),
-    ("https://www.dongdongchen.bid/supp/deep_exam_colorization/user_study.html",
+    ("https://raw.githubusercontent.com/cddlyf/cddlyf.github.io/a5d684aa7bc2b04eb7d8c6413740ada25c0a9838/supp/deep_exam_colorization/user_study.html",
      "images/user_study/input/", "images/user_study/our_top_ref/")
 ]
 
