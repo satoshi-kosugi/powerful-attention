@@ -1,7 +1,10 @@
 # Leveraging the Powerful Attention of a Pre-trained Diffusion Model for Exemplar-based Image Colorization
 
-Our code requires about 14 GB of GPU memory.
+This is the official implementation of the paper in TCSVT.
 
+<p align="left">
+<img src="figs/overview.png">
+</p>
 
 ## Setup
 ### Create a Conda Environment
@@ -26,6 +29,7 @@ To perform colorization, run:
 ```Shell
 python run.py --input ./dataset/main/input --ref ./dataset/main/reference --output_path output
 ```
+This colorization process requires about 14 GB of GPU memory.
 
 ### Historical paintings
 URLs for pairs of historical paintings and contemporary photos are recorded in `dataset/historical.txt`. To download the images, run:
