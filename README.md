@@ -1,6 +1,6 @@
 # Leveraging the Powerful Attention of a Pre-trained Diffusion Model for Exemplar-based Image Colorization
 
-This is the official implementation of the paper in TCSVT.
+This is the official implementation of the paper in TCSVT. [[paper](https://arxiv.org/abs/2505.15812)]
 
 <p align="left">
 <img src="figs/overview.png">
